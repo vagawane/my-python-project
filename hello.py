@@ -34,7 +34,7 @@ def main():
     scores = [s["score"] for s in students]
     avg = sum(scores) / len(scores)
     print("=" * 35)
-    print(f"Class Average: {avg:.1f}")
+    print(f"Class Average score: {avg:.1f}")
 
 if __name__ == "__main__":
     main()
